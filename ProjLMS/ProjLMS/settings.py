@@ -25,7 +25,7 @@ SECRET_KEY = 'l0#ps@lpbcw)gs82x2@3om4kfp0#g8&xwhfr5_g3jn285*2mq5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['novo-lms.azurewebsites.net']
 
 
 # Application definition
