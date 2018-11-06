@@ -4,7 +4,7 @@ from disciplina.views import *
 
 urlpatterns = [
 	path('',index),
-	path('',disciplina),
-	path('',professor),
+	#path('disciplina/',disciplina),
+	#path('professor/',professor),
     path('admin/', admin.site.urls),
 ]

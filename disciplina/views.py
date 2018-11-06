@@ -4,8 +4,8 @@ from django.http import HttpResponse
 def index(request):
 	return render(request,'index.html')
 
-def disciplina(request):
+'''def disciplina(request):
 	return render(request,'discplina.html')
 
 def professor(request):
-	return render(request,'professor.html')
+	return render(request,'professor.html')'''

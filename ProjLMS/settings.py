@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-import heroku
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -25,7 +24,7 @@ SECRET_KEY = 'l0#ps@lpbcw)gs82x2@3om4kfp0#g8&xwhfr5_g3jn285*2mq5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['novo-lms.azurewebsites.net']
+ALLOWED_HOSTS = []
 
 
 # Application definition
